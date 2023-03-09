@@ -1,6 +1,6 @@
 # Greet the user and provide instructions
 print(f"Greeting audiences! I want to share with you all a story about a man preparing for his blind date.")
-print(f"Before we start with the story, I want to ask some few questions to help the man be ready and on time for the his date.    ")
+print(f"Before we start with the story, I want to ask some few questions to help the man be ready and on time for the his date.  ")
 print(f"After answering the question, make sure that you press the  press the enter key.  ")
 input(f"\nPress enter to continue...")
 
@@ -53,13 +53,11 @@ while keepPlaying.lower() == "yes":
     print(f"\nHe is a grad student from {state}  university and major in Computer Science.  ")
     print(f"\n{name} has been in bad relationship in back in his colleges year.   ")
     print(f"\nOn saturday night {name} was hanging out with his old friends from college at a bowling alley.  ")
-    print(
-        f"\nOne of his friend suggested he should get back in dating scene by signing him up on a blind dating app.  ")
+    print(f"\nOne of his friend suggested he should get back in dating scene by signing him up on a blind dating app.  ")
     print(f"\nAt first {name} didn't want to get wrap into the blind dating but he gave it a try at least.")
     print(f"\nBecause he was tired of being the third wheel on his friends dates.  ")
     print(f"\nNext morning {name} recieved a message on the dating app from a mysterious user.   ")
-    print(
-        f"\nThe message starts off with a greeting to {name} and asking him if they can meet face to face at a restaurant ")
+    print(f"\nThe message starts off with a greeting to {name} and asking him if they can meet face to face at a restaurant ")
     print(f"\nThe restaurant {name} had suggested they can meet at is {restaurant} at seven tonight.  ")
     print(f"\nThey both agree to the time and place for they date tonight.  ")
     print(f"\n{name} has start to get to get ready for his blind date by deciding on what to wear.  ")
@@ -139,6 +137,7 @@ while keepPlaying.lower() == "yes":
     keepPlaying = input(f"\nDo you want to play again? Enter yes or no:  ")
     while keepPlaying.lower() != "yes" and keepPlaying.lower() != "no":
         keepPlaying = input(f"Please type yes or no:  ")
+
 
 
 
